@@ -1,0 +1,66 @@
+/* Estilos para centralizar o player de música */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #songContainer {
+    margin-bottom: 2vw; /* Ajuste a margem inferior conforme necessário */
+  }
+  
+  #audioControls {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 5vw; /* Ajuste o tamanho do ícone conforme necessário */
+  }
+  
+  #nextSongIcon,
+  #volumeDecrease,
+  #playPauseIcon,
+  #volumeIncrease {
+    margin: 0 1vw; /* Ajuste a margem horizontal conforme necessário */
+  }
+  
+  #songName {
+    text-transform: lowercase;
+    font-size: 4vw; /* Ajuste o tamanho da fonte do nome da música conforme necessário */
+  }
+  
+  #clockContainer {
+    margin-top: 2vw; /* Ajuste a margem superior conforme necessário */
+  }
+  
+  #clock {
+    font-size: 4vw; /* Ajuste o tamanho da fonte do relógio conforme necessário */
+  }
+  
+  /* Estilos para telas mobile */
+  @media (max-width: 768px) {
+    .icon {
+      font-size: 8vw; /* Ajuste o tamanho do ícone para telas mobile */
+    }
+  
+    #songName {
+      font-size: 8vw; /* Ajuste o tamanho da fonte do nome da música para telas mobile */
+    }
+  
+    #clock {
+      font-size: 15vw; /* Ajuste o tamanho da fonte do relógio para telas mobile */
+    }
+  }
+  
+  /* Estilos para telas mobile menores */
+  @media (max-width: 480px) {
+    #songName {
+      font-size: 12vw; /* Ajuste o tamanho da fonte do nome da música para telas mobile menores */
+    }
+  }
+  
